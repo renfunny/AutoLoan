@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label prefHeight="63.0" prefWidth="601.0" text="Speedy Auto Loan" textFill="#e08c00">
+               <font>
+                  <Font name="Century Gothic Bold" size="25.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <HBox layoutY="67.0" prefHeight="333.0" prefWidth="600.0">
+               <children>
+                  <Pane prefHeight="318.0" prefWidth="242.0" style="-fx-border-color: e08c00; -fx-border-radius: 20;">
+                     <children>
+                        <TextField layoutX="23.0" layoutY="97.0" prefHeight="25.0" prefWidth="191.0" />
+                        <Label layoutX="40.0" layoutY="33.0" text="Customer Log In">
+                           <font>
+                              <Font name="Century Gothic" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="82.0" text="Email: ">
+                           <font>
+                              <Font name="Century Gothic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="25.0" layoutY="137.0" text="Password:">
+                           <font>
+                              <Font name="Century Gothic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="54.0" layoutY="212.0" maxHeight="-Infinity" mnemonicParsing="false" prefHeight="32.0" prefWidth="130.0" text="Log In">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Button>
+                        <PasswordField layoutX="23.0" layoutY="152.0" prefHeight="25.0" prefWidth="191.0" />
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" />
+                     </HBox.margin>
+                  </Pane>
+                  <ImageView fitHeight="230.0" fitWidth="312.0" pickOnBounds="true" preserveRatio="true" translateY="30.0">
+                     <image>
+                        <Image url="@../../../images/orangeCar.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
