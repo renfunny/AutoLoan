@@ -1,3 +1,14 @@
+/**********************************************
+ Workshop # 2
+ Course: APD 545 - Winter 2025
+ Last Name: Cordova
+ First Name: Renato
+ ID: 153325238
+ Section: NBB
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ Signature
+ Date: 03/03/2025
+ **********************************************/
 package com.example.autoloan;
 
 import javafx.application.Application;

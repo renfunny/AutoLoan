@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<VBox prefHeight="400.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autoloan.controller.AmortizationController">
+   <children>
+       <TableView fx:id="amortizationTable">
+           <columns>
+               <TableColumn fx:id="paymentNoColumn" prefWidth="80" text="Payment #" />
+               <TableColumn fx:id="paymentDateColumn" prefWidth="100" text="Payment Date" />
+               <TableColumn fx:id="paymentAmountColumn" prefWidth="120" text="Payment Amount" />
+               <TableColumn fx:id="interestPaymentColumn" prefWidth="100" text="Interest" />
+               <TableColumn fx:id="principalPaymentColumn" prefWidth="100" text="Principal" />
+               <TableColumn fx:id="remainingBalanceColumn" prefWidth="140" text="Remaining Balance" />
+           </columns>
+       </TableView>
+   </children>
+</VBox>
