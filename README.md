@@ -1,7 +1,7 @@
 # Auto Loan Application (JavaFX)
-![Application Login View](./mdAssets/login.png)
-![Application Main Menu View](./mdAssets/mainmenu.png)
-![Application Amortization Schedule View](./mdAssets/amortization.png)
+![Application Login View](./mdAssets/Login.png)
+![Application Main Menu View](./mdAssets/MainMenu.png)
+![Application Amortization Schedule View](./mdAssets/Amortization.png)
 
 ## Overview
 
