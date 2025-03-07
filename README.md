@@ -24,7 +24,7 @@ Hello World! This project was created using <b>JavaFX</b> and <b>Scence Builder<
 * Displays a structured breakdown of loan payments, including principal, interest, and remaining balance
 
 ## Application Architecture 
-![Application Architecture](fdfd)
+![Application Architecture](./mdAssets/CarLoanSystemDesign.png)
 
 ## Setup Instructions 
 1. Clone the Repository:
