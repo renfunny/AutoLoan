@@ -11,54 +11,59 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Button?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autoloan.controller.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autoloan.controller.LoginController">
    <children>
-      <Pane prefHeight="400.0" prefWidth="600.0">
+      <Pane prefHeight="600.0" prefWidth="800.0">
          <children>
-            <Label prefHeight="63.0" prefWidth="601.0" text="Speedy Auto Loan" textFill="#e08c00">
+            <Label layoutX="22.0" prefHeight="88.0" prefWidth="757.0" text="Speedy Auto Loan" textFill="#e08c00">
                <font>
-                  <Font name="Century Gothic Bold" size="25.0" />
+                  <Font name="Century Gothic Bold" size="36.0" />
                </font>
                <padding>
                   <Insets left="10.0" />
                </padding>
             </Label>
-            <HBox layoutY="67.0" prefHeight="333.0" prefWidth="600.0">
+            <HBox layoutY="67.0" prefHeight="533.0" prefWidth="800.0">
                <children>
-                  <Pane prefHeight="318.0" prefWidth="242.0" style="-fx-border-color: e08c00; -fx-border-radius: 20;">
+                  <Pane prefHeight="518.0" prefWidth="345.0" style="-fx-border-color: e08c00; -fx-border-radius: 20; -fx-border-width: 3px;">
                      <children>
-                        <TextField layoutX="23.0" layoutY="97.0" prefHeight="25.0" prefWidth="191.0" fx:id="usernameTextField" />
-                        <Label layoutX="40.0" layoutY="33.0" text="Customer Log In">
+                        <TextField fx:id="usernameTextField" layoutX="77.0" layoutY="168.0" prefHeight="25.0" prefWidth="191.0" />
+                        <Label layoutX="78.0" layoutY="66.0" text="Customer Log In">
                            <font>
-                              <Font name="Century Gothic" size="20.0" />
+                              <Font name="Century Gothic" size="24.0" />
                            </font>
                         </Label>
-                        <Label layoutX="23.0" layoutY="82.0" text="Email: ">
+                        <Label layoutX="78.0" layoutY="142.0" text="Email: ">
                            <font>
-                              <Font name="Century Gothic" size="12.0" />
+                              <Font name="Century Gothic Bold" size="14.0" />
                            </font>
                         </Label>
-                        <Label layoutX="25.0" layoutY="137.0" text="Password:">
+                        <Label layoutX="78.0" layoutY="210.0" text="Password:">
                            <font>
-                              <Font name="Century Gothic" size="12.0" />
+                              <Font name="Century Gothic Bold" size="14.0" />
                            </font>
                         </Label>
-                        <PasswordField layoutX="23.0" layoutY="152.0" prefHeight="25.0" prefWidth="191.0" fx:id="passwordPasswordField" />
-                        <Button layoutX="54.0" layoutY="212.0" maxHeight="-Infinity" mnemonicParsing="false" prefHeight="32.0" prefWidth="130.0" text="Log In" fx:id="loginBtn">
+                        <PasswordField fx:id="passwordPasswordField" layoutX="78.0" layoutY="234.0" prefHeight="25.0" prefWidth="191.0" />
+                        <Button fx:id="loginBtn" layoutX="102.0" layoutY="303.0" maxHeight="-Infinity" mnemonicParsing="false" prefHeight="37.0" prefWidth="143.0" style="-fx-background-color: #e08c00;" text="Log In">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
                         </Button>
                      </children>
                      <HBox.margin>
                         <Insets bottom="15.0" left="15.0" right="15.0" />
                      </HBox.margin>
                   </Pane>
-                  <ImageView fitHeight="230.0" fitWidth="312.0" pickOnBounds="true" preserveRatio="true" translateY="30.0">
+                  <ImageView fitHeight="345.0" fitWidth="410.0" pickOnBounds="true" preserveRatio="true" translateY="30.0">
                      <image>
                         <Image url="@../../../images/orangeCar.png" />
                      </image>
+                     <HBox.margin>
+                        <Insets top="60.0" />
+                     </HBox.margin>
                   </ImageView>
                </children>
             </HBox>
